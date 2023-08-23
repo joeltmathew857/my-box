@@ -9,7 +9,7 @@ import {
 
 const navbox = () => {
   return (
-    <div class="flex justify-center  items-center ">
+    <div className="flex justify-center  items-center ">
       <div class="  drop-shadow-lg mt-40 flex items-center  lg:flex-row md:flex-col bg-white content-between ">
         <div class="bg-gradient-to-r from-blue-600 to-violet-600  w-1/2 md:w-full p-2 rounded-3xl">
           <div className="rounded-full justify-center p-8 items-center flex flex-col  ">

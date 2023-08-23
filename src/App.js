@@ -1,10 +1,10 @@
 import React from "react";
-import Boxmiddle from "./componets/boxmiddle";
+import Submit from "./componets/submit";
 
 const App = () => {
   return (
     <div>
-      <Boxmiddle />
+      <Submit />
     </div>
   );
 };
