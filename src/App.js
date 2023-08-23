@@ -1,12 +1,12 @@
-import React from 'react'
-import NavBox from "./componets/navbox"
+import React from "react";
+import Boxmiddle from "./componets/boxmiddle";
 
 const App = () => {
   return (
     <div>
-    <NavBox />
+      <Boxmiddle />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
