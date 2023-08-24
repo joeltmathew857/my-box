@@ -1,10 +1,10 @@
 import React from "react";
-import Submit from "./componets/submit";
+import QRcode from "./componets/qrcode";
 
 const App = () => {
   return (
     <div>
-      <Submit />
+      <QRcode />
     </div>
   );
 };
