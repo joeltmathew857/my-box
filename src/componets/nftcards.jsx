@@ -1,6 +1,7 @@
 import React from "react";
 import NFTCARDIMA from "../assets/NFTima/image-equilibrium.jpg";
 import NFTPROF from "../assets/NFTima/image-avatar.png";
+import NFTICON from "../assets/NFTima/icon-ethereum.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,7 +9,7 @@ const nftcards = () => {
   return (
     <div className="justify-center items-center h-screen text-slate-50 bg-slate-900 flex flex-col">
       {/*Image*/}
-      <div className="drop-shadow-xl rounded-xl md:w-72 sm:w-full h-82 box-content bg-gradient-to-r from-slate-800 to-slate-800 w-80 p-5 ">
+      <div className="drop-shadow-xl rounded-xl lg:w-72 sm:w-54 h-82 box-content bg-gradient-to-r from-slate-800 to-slate-800 w-80 p-5 ">
         <img src={NFTCARDIMA} alt="NFT" className="rounded-lg" />
         {/*description*/}
         <div className="">
@@ -19,11 +20,11 @@ const nftcards = () => {
             Our Equilibrium collection promotes balance and calm.
           </div>
 
-          <div className="flex flex-row items-center mt-4 pb-4">
+          <div className="flex flex-row items-center justify-between mt-4 pb-4">
+            <img src={NFTICON} alt="NFTICON" className="mr-2" />
             <div className="flex-grow text-teal-400">0.041 ETH</div>
-
-            <div className=" items-center">
-              <FontAwesomeIcon icon={faClock} className="text-slate-400" />
+            <div className="">
+              <FontAwesomeIcon icon={faClock} className="text-slate-400 mr-1" />
               <span className="text-slate-400"> 3 days left</span>
             </div>
           </div>
