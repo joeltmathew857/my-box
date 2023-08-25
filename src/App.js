@@ -1,10 +1,10 @@
 import React from "react";
-import NFTCARDS from "./componets/nftcards";
+import OrderSum from "./componets/Ordersummary";
 
 const App = () => {
   return (
     <div>
-      <NFTCARDS />
+      <OrderSum />
     </div>
   );
 };
