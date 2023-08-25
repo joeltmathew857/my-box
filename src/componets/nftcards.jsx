@@ -22,8 +22,8 @@ const nftcards = () => {
           <div className="flex flex-row items-center mt-4 pb-4">
             <div className="flex-grow text-teal-400">0.041 ETH</div>
 
-            <div className="flex-grow flex items-center">
-              <FontAwesomeIcon icon={faClock} className="mr-1 text-slate-400" />
+            <div className=" items-center">
+              <FontAwesomeIcon icon={faClock} className="text-slate-400" />
               <span className="text-slate-400"> 3 days left</span>
             </div>
           </div>
