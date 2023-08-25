@@ -20,10 +20,14 @@ const Submit = () => {
           is appreciated to help us improve our offering!
         </p>
         <div className="py-8">
-          <Button />
+          <div className="flex justify-center flex-row">
+            {numbers.map((number) => (
+              <Button key={number} number={number} />
+            ))}
+          </div>
         </div>
         <div className="flex justify-center">
-          <button className="bg-orange-500 rounded-full text-white w-40 px-4 py-2">
+          <button className="bg-orange-500 rounded-full text-white w-40 px-4 py-2 hover:bg-slate-800 transition duration-150">
             SUBMIT
           </button>
         </div>
