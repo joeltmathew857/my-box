@@ -10,7 +10,7 @@ const Ordersummary = () => {
       style={{ backgroundImage: `url(${SumImage})` }}
     >
       <div className="justify-center items-center h-screen flex flex-col">
-        <div className="sm:w-48 md:w-96 rounded-2xl bg-white">
+        <div className="xs:w-48 md:w-96 rounded-2xl bg-white">
           <div className="">
             <img
               src={MusicPlayGirl}
@@ -18,22 +18,24 @@ const Ordersummary = () => {
               className="rounded-xl "
             />
           </div>
-          <div className="p-8 px-8">
-            <div className="font-medium text-3xl py-3 ml-10">Order Summary</div>
+          <div className="p-8">
+            <div className="font-medium text-3xl flex justify-center py-4">
+              Order Summary
+            </div>
             <div className="text-slate-500">
               You can now listen to millions of songs, audiobooks, and podcasts
               on any device
-              <div className="pl-20">anywhere you like!</div>
+              <div className="flex justify-center">anywhere you like!</div>
             </div>
             {/* icon */}
-            <div className="flex flex-row py-4 justify-between">
-              <div className="flex items-center h-62 w-96 p-4 bg-purple-50 rounded-xl">
-                <img src={Musicicon} alt="Musicicon" className="mr-2" />
-                <div className="flex flex-col">
+            <div className="flex flex-row py-4 justify-center ">
+              <div className="flex items-center h-62 w-96 p-4 bg-purple-50 rounded-xl ">
+                <img src={Musicicon} alt="Musicicon" className="mr-4" />
+                <div className="flex flex-col ">
                   <span className="font-bold">Annual Plan</span>
                   <span className="text-slate-500">$59.99/year</span>
                 </div>
-                <button className="ml-20 underline hover:underline-offset-4 text-blue-700 font-bold text-sm">
+                <button className="mr-8underline hover:underline-offset-4 text-blue-700 font-bold text-sm">
                   Change
                 </button>
               </div>

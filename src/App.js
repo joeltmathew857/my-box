@@ -1,10 +1,10 @@
 import React from "react";
-import OrderSum from "./componets/Ordersummary";
+import Columncard from "./componets/columncard";
 
 const App = () => {
   return (
     <div>
-      <OrderSum />
+      <Columncard />
     </div>
   );
 };
