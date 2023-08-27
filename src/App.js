@@ -1,10 +1,10 @@
 import React from "react";
-import Columncard from "./componets/columncard";
+import FAQcard from "./componets/FAQcard";
 
 const App = () => {
   return (
     <div>
-      <Columncard />
+      <FAQcard />
     </div>
   );
 };
