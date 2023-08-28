@@ -11,11 +11,11 @@ const Accordian = ({
 }) => {
   return (
     <div>
-      <div className="cursor-pointer border-b-4 border-zinc-950 py-4">
+      <div className="cursor-pointer text-md border-b-4 border-zinc-950 py-4">
         {title}
         <FontAwesomeIcon
           icon={faChevronDown}
-          onClick={() => onToggle}
+          onClick={() => onToggle()}
           className={`${isOpen ? "rotate-180" : ""} w-12 h-6 text-yellow-500`}
         />
         {isOpen && <div className="drop">{description}</div>}
