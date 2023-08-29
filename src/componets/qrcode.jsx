@@ -3,7 +3,7 @@ import QrcodeImage from "../assets/qrcode/image-qr-code.png";
 
 const Qrcode = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-slate-300">
+    <div className="flex items-center justify-center h-screen bg-slate-400">
       <div className="bordered drop-shadow-xl rounded-xl md:w-80 sm:w-full sm:p-4 p-8 bg-white">
         <div className="">
           <img src={QrcodeImage} alt="" className="rounded-lg" />

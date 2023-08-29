@@ -46,12 +46,13 @@ const FAQcard = () => {
   ];
 
   return (
-    <div className="flex justify-center h-screen items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <div className="flex justify-center h-screen items-center bg-gradient-to-l from-pink-400 via-purple-500 to-indigo-500">
       <div className="mx-auto bg-white sm:max-w-md md:max-w-lg flex justify-between flex flex-row lg:max-w-xl xl:max-w-3xl rounded-2xl shadow-md text-center">
         <div>
           <img src={FAQimg} alt="FAQimg" className="w-96 h-96" />
         </div>
         <div className="drop-down p-12 ">
+          <div className="font-bold text-4xl flex flex-row pb-8">FAQ</div>
           {faqData.map((item) => (
             <Accordian
               key={item.key}
