@@ -47,9 +47,9 @@ const FAQcard = () => {
 
   return (
     <div className="flex justify-center h-screen items-center bg-gradient-to-l from-pink-400 via-purple-500 to-indigo-500">
-      <div className="flex mx-auto bg-white  sm:flex-row  flex-col  sm:mb-8 sm:max-w-md md:max-w-lg  justify-between lg:max-w-xl xl:max-w-3xl rounded-2xl shadow-md text-center">
-        <div>
-          <img src={FAQimg} alt="FAQimg" className="w-full h-full " />
+      <div className="flex mx-auto bg-white sm:flex-row  flex-col   sm:mb-8 sm:max-w-md md:max-w-lg  justify-between lg:max-w-xl xl:max-w-3xl rounded-2xl shadow-md text-center">
+        <div className="sm:-mt-8">
+          <img src={FAQimg} alt="FAQimg" className="w-full h-full" />
         </div>
         <div className="drop-down p-10">
           <div className="font-bold text-4xl flex flex-row pb-8">FAQ</div>

@@ -1,6 +1,6 @@
 import React from "react";
 import FAQcard from "./componets/FAQcard";
-import Sarah from "./componets/FAQcard";
+import Sarah from "./componets/navbox";
 
 const App = () => {
   return (

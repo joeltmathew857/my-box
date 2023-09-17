@@ -22,7 +22,7 @@ const BoxMiddle = () => {
             className="block lg:hidden w-full h-auto rounded-lg"
           />
         </div>
-        <div className="container bg-white p-8 flex flex-col justify-center">
+        <div className="container bg-white p-8 flex flex-col justify-center rounded-2xl">
           <div className="font-sans text-xs text-slate-500 tracking-[.35em]">
             PERFUME
           </div>
