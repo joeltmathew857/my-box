@@ -11,7 +11,7 @@ const ColumnCard = () => {
           <img
             src={Sedans}
             alt="Sedans"
-            className="w-16 flex justify-start py-8"
+            className="w-14 flex justify-start py-8"
           />
           <p>
             <span className="font-bold text-2xl ">Sedans</span>
