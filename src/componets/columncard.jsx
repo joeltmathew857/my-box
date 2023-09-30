@@ -7,7 +7,7 @@ const ColumnCard = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="flex justify-center rounded-xl md:w-1/2 lg:w-3/5 h-96 text-white p-4">
-        <div className="flex flex-col box-content h-96 w-64 p-4 bg-orange-700">
+        <div className="flex flex-col box-content h-96 w-64 p-4 bg-orange-600">
           <img
             src={Sedans}
             alt="Sedans"
