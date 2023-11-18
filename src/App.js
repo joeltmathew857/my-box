@@ -1,12 +1,12 @@
 import React from "react";
 import FAQcard from "./componets/FAQcard";
-import Sarah from "./componets/navbox";
+import FAQcard from "./componets/FAQcard";
 
 const App = () => {
   return (
     <div>
       {/* <FAQcard /> */}
-      <Sarah />
+      <FAQcard />
     </div>
   );
 };
